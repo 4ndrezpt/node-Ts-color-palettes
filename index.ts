@@ -1,7 +1,7 @@
 import express, {  Request, Response } from "express";
 import { randomUUID } from "crypto";
-import { Color, ColorPalette, ColorRequest } from "./types/types";
-import { saveJsonFile, readJsonFile } from "./helpers/WriteJson";
+import { Color, ColorPalette, ColorRequest } from "./src/types/types";
+import { saveJsonFile, readJsonFile } from "./src/helpers/WriteJson";
 
 const app = express();
 const PORT: number = 3000;
