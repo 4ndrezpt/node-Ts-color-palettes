@@ -1,0 +1,38 @@
+[
+  {
+    "id": "89fb33a9-37cc-45d4-9c41-90d29991d0e0",
+    "title": "jam 1",
+    "description": "jam 1 proposal",
+    "color1": "#f6d32d",
+    "color2": "#ffffff",
+    "color3": "#3584e4",
+    "color4": "#630909"
+  },
+  {
+    "id": "bc90d8aa-fade-4b4a-a06b-bc2d42e686d2",
+    "title": "jam 2",
+    "description": "jam 2 proposal",
+    "color1": "#ff7800",
+    "color2": "#f9f06b",
+    "color3": "#aaa7a7",
+    "color4": "#630909"
+  },
+  {
+    "id": "fc56f15a-cd46-415f-b7a3-7156b4e7f825",
+    "title": "my blog",
+    "description": "blog palette proposal",
+    "color1": "#e01b24",
+    "color2": "#e5a50a",
+    "color3": "#aaa7a7",
+    "color4": "#15b99d"
+  },
+  {
+    "id": "a7b4bc41-5000-4ec5-91f6-3fd60c1a5851",
+    "title": "Exposicion",
+    "description": "Expo proposal",
+    "color1": "#527532",
+    "color2": "#b54848",
+    "color3": "#9a5cb5",
+    "color4": "#157e82"
+  }
+]

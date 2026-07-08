@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/styles.css"/>
+	<title>Color Palettes</title>
+</head>
+<body>
+    <main>
+    <h1>Color Palettes</h1>
+        <div class="form-container">
+            <form action="/register" method="POST">
+                <h3>Fill this form to submit a Palette</h3>
+                <div class="form__layout">
+                    <fieldset>
+                        <legend>Use Case</legend>
+                        <label>Title</label>
+                        <input type="text" id="title" name="title" />
+                        <label>Color Description</label>
+                        <textarea id="description" name="description" cols="30" rows="4"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <label>Color:</label>
+                        <input type="color" id="color1" name="color1"/>
+                        <input type="color" id="color2" name="color2"/>
+                        <input type="color" id="color3" name="color3"/>
+                        <input type="color" id="color4" name="color4""/>
+                        <legend>Colors</legend>
+                    </fieldset>
+                </div>
+                    <button type="submit" value="Create Palette">Enviar</button>
+            </form>
+        </div>
+        <div id="items">
+            <h2>Palettes</h2>
+        </div>
+    </main>
+	<script src="./scripts/frontend/App.js" type="module" ></script>
+</body>
+</html>
