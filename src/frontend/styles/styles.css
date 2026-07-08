@@ -81,12 +81,14 @@ main {
 }
 #items {
     width: 90%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     margin-top: 34px;
     margin-left: auto;
     margin-right: auto;
     gap: 21px;
+    overflow-y: scroll;
     & h2 {
         text-align: center;
         padding: 1.3rem 0;
@@ -106,6 +108,12 @@ main {
         width: 100%;
         flex-direction: row;
         & div{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: whitesmoke;
+            text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
             width: 26%;
             height: 6rem;
         }
